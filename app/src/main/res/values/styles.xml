@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Calc equals button theme. -->
+    <style name="CalcEqualButton">
+        <item name="android:textSize">30sp</item>
+        <item name="android:minHeight">105dp</item>
+        <item name="android:textColor">@color/colorFunctionalButton</item>
+        <item name="android:background">@drawable/orange</item>
+    </style>
+
+    <style name="green">
+        <item name="android:textSize">30sp</item>
+        <item name="android:minHeight">105dp</item>
+        <item name="android:textColor">@color/colorFunctionalButton</item>
+        <item name="android:background">@drawable/green_counter</item>
+    </style>
+
+    <style name="red">
+        <item name="android:textSize">30sp</item>
+        <item name="android:minHeight">105dp</item>
+        <item name="android:textColor">@color/colorFunctionalButton</item>
+        <item name="android:background">@drawable/red_counter</item>
+    </style>
+
+    <style name="blue">
+        <item name="android:textSize">30sp</item>
+        <item name="android:minHeight">105dp</item>
+        <item name="android:textColor">@color/colorFunctionalButton</item>
+        <item name="android:background">@drawable/blue_counter</item>
+    </style>
+
+    <style name="arm">
+        <item name="android:textSize">30sp</item>
+        <item name="android:minHeight">105dp</item>
+        <item name="android:textColor">@color/colorFunctionalButton</item>
+        <item name="android:background">@drawable/arm</item>
+    </style>
+
+    <!-- Calc functional buttons theme. -->
+    <style name="CalcFunctionButtons">
+        <item name="android:textSize">30sp</item>
+        <item name="android:minHeight">105dp</item>
+        <item name="android:textColor">@color/colorTextFunctionalButton</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+
+
+</resources>
